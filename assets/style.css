@@ -16,7 +16,7 @@
 }
 
 body {
-     font-family: 'Bebas Neue', 'Inconsolata', 'Manrope', 'Oswald', 'Red Hat Mono','Open Sans', monospace;
+     font-family: 'Inconsolata', 'Manrope', 'Oswald', 'Red Hat Mono','Open Sans','Bebas Neue', monospace;
     font-size: 16px;
     line-height: 1;
     background-color: var(--black);
@@ -68,12 +68,12 @@ body {
   
   .past {
     background-color: #ffd6ff;
-    color: white;
+
   }
   
   .present {
     background-color: #ff6961;
-    color: white;
+    
   }
   
   .future {
