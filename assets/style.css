@@ -1,0 +1,99 @@
+.root {
+    --teal: #0E9594;
+    --darkteal: #127475;
+    --palepurple: #ffd6ff;
+    --lavender: #C287E8;
+    --palegreen: #c1dbb3;
+    --midgreen: #7ebc89;
+    --forestgreen: #387e21;
+    --tangerine: #F2542D;
+    --rockmelon: #FEC0AA;
+    --brown: #562C2C;
+    --beige: #F5DFBB;
+    --midbeige: #f2c078;
+    --white: #feefdd;
+    --black: #201e1f;
+}
+
+body {
+     font-family: 'Bebas Neue', 'Inconsolata', 'Manrope', 'Oswald', 'Red Hat Mono','Open Sans', monospace;
+    font-size: 16px;
+    line-height: 1;
+    background-color: var(--black);
+    background-image: url(../assets/images/pawel-czerwinski-2m4P67xWDww-unsplash.jpg);
+    align-items: center;
+    justify-content: center;
+    align-items: stretch;
+    margin:0%;
+  }
+  
+  textarea {
+    background: transparent;
+    border: none;
+    resize: none;
+    color: var(--black);
+    border: 1px solid black;
+    padding: 10px;
+  }
+  
+  .jumbotron {
+    text-align: center;
+    background-color: var(--palepurple);
+    color: black;
+    border-radius: 0;
+    border-bottom: 10px solid var(--lavender);
+    font-family: 'Inconsolata';
+  }
+  
+  .description {
+    white-space: pre-wrap;
+  }
+  
+  .time-block {
+    text-align: center;
+    border-radius: 15px;
+  }
+  
+  .row {
+    white-space: pre-wrap;
+    height: 80px;
+    border-top: 1px solid white;
+  }
+  
+  .hour {
+    background-color: #ffffff;
+    color: #000000;
+    border-top: 1px dashed #000000;
+  }
+  
+  .past {
+    background-color: #ffd6ff;
+    color: white;
+  }
+  
+  .present {
+    background-color: #ff6961;
+    color: white;
+  }
+  
+  .future {
+    background-color: #77dd77;
+    color: white;
+  }
+  
+  .saveBtn {
+    border-left: 1px solid black;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #06aed5;
+    color: white;
+  }
+  
+  .saveBtn i:hover {
+    font-size: 20px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  #reset-button {
+
+  }
