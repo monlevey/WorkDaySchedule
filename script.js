@@ -58,7 +58,7 @@ function createRow(time) {
     return row;
 }
 
-const times = [8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23];
+const times = [8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18];
 // generate all the timeblock rows 8am until 6pm
 for (let index = 0; index < times.length; index++) {
     const time = times[index];
